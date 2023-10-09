@@ -1,6 +1,6 @@
 import React from 'react'
 import TimeCountDown from '../countdown'
-import hImg1 from '/public/images/slider/s1.png'
+import hImg1 from '/public/images/slider/uzaOly.png'
 import shape1 from '/public/images/slider/shape.svg'
 import shape2 from '/public/images/slider/flower1.png'
 import shape3 from '/public/images/slider/flower2.png'
