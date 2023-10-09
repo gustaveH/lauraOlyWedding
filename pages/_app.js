@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
-        <title>Mylove - Wedding Next JS Template</title>
+        <title>Uza Wa Nsengiyumva</title>
       </Head>
       <Component {...pageProps} />
       <ToastContainer />

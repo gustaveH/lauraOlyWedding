@@ -21,7 +21,7 @@ const Hero = (props) => {
                                         <h2>Laura <span>&</span> Oliver</h2>
                                     </div>
                                     <div data-swiper-parallax="400" className="slide-text">
-                                        <p>We Are Getting Married Dec 8, 2023</p>
+                                        <p>We Are Getting Married</p>
                                     </div>
                                     {/* <div className="wpo-wedding-date">
                                         <div className="clock-grids">

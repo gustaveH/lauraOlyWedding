@@ -23,8 +23,7 @@ const Header = (props) => {
               </div>
               <div className="col-lg-2 col-md-6 col-6">
                 <div className="navbar-header">
-                  <NavLink className="navbar-brand logo" href='/'><small>My</small>love<span><i
-                    className="fi flaticon-dove"></i></span></NavLink>
+                  <NavLink className="navbar-brand logo" href='/'><small>Uza</small>Oly<span></span></NavLink>
                 </div>
               </div>
               <div className="col-lg-8 col-md-1 col-1">
@@ -33,10 +32,10 @@ const Header = (props) => {
                   <ul className="nav navbar-nav mb-2 mb-lg-0">
                     <li className="menu-item-has-children">
                     </li>
-                    <li><Link activeClass="active" to="couple" spy={true} smooth={true} duration={500} >Couple</Link></li>
-                    <li><Link activeClass="active" to="story" spy={true} smooth={true} duration={500} >Story</Link></li>
+                    {/* <li><Link activeClass="active" to="couple" spy={true} smooth={true} duration={500} >Couple</Link></li>
+                    <li><Link activeClass="active" to="story" spy={true} smooth={true} duration={500} >Story</Link></li> */}
                     <li><Link activeClass="active" to="RSVP" spy={true} smooth={true} duration={500} >RSVP</Link></li>
-                    <li><Link activeClass="active" to="event" spy={true} smooth={true} duration={500} >Events</Link></li>
+                    {/* <li><Link activeClass="active" to="event" spy={true} smooth={true} duration={500} >Events</Link></li> */}
                   </ul>
 
                 </div>

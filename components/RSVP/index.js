@@ -81,7 +81,7 @@ const RSVP = (props) => {
                                     <label htmlFor="not">Sorry, I can’t come</label>
                                 </p>
                             </div>
-                            <div className="form-field">
+                            {/* <div className="form-field">
                                 <select
                                     onBlur={(e) => changeHandler(e)}
                                     onChange={(e) => changeHandler(e)}
@@ -94,8 +94,8 @@ const RSVP = (props) => {
                                     <option>02</option>
                                 </select>
                                 {validator.message('guest', forms.guest, 'required')}
-                            </div>
-                            <div className="form-field">
+                            </div> */}
+                            {/* <div className="form-field">
                                 <input
                                     value={forms.attend}
                                     type="text"
@@ -105,7 +105,7 @@ const RSVP = (props) => {
                                     className="form-control"
                                     placeholder="What Will You Be Attending" />
                                 {validator.message('attend', forms.attend, 'required')}
-                            </div>
+                            </div> */}
                             <div className="submit-area">
                                 <button type="submit" className="theme-btn">Submit Now</button>
                             </div>
