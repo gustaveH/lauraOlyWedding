@@ -1,6 +1,6 @@
 import React from 'react'
 import TimeCountDown from '../countdown'
-import hImg1 from '/public/images/slider/uzaOly.png'
+import hImg1 from '/public/images/slider/oluUzaOriginal.JPG'
 import shape1 from '/public/images/slider/shape.svg'
 import shape2 from '/public/images/slider/flower1.png'
 import shape3 from '/public/images/slider/flower2.png'
@@ -16,18 +16,17 @@ const Hero = (props) => {
                         <div className="row align-items-center">
                             <div className="col-xl-8 col-lg-6 col-12">
                                 <div className="wpo-static-hero-inner">
-                                    <div className="shape-1"><Image src={shape1} alt=""/></div>
                                     <div data-swiper-parallax="300" className="slide-title">
-                                        <h2>Laura <span>&</span> Oliver</h2>
+                                        <h2>Laura <span>&</span> Olivier</h2>
                                     </div>
                                     <div data-swiper-parallax="400" className="slide-text">
                                         <p>We Are Getting Married</p>
                                     </div>
-                                    {/* <div className="wpo-wedding-date">
+                                    <div className="wpo-wedding-date">
                                         <div className="clock-grids">
                                             <TimeCountDown/>
                                         </div>
-                                    </div> */}
+                                    </div>
                                     <div className="clearfix"></div>
                                 </div>
                             </div>

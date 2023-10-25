@@ -20,8 +20,8 @@ const HomePage = () => {
             <StorySection /> */}
             <RSVP />
             {/* <EventSection />
-            <Footer /> */}
-            <Scrollbar />
+            <Footer />
+            <Scrollbar /> */}
         </Fragment>
     )
 };
