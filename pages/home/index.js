@@ -3,13 +3,9 @@ import Navbar from '../../components/Navbar'
 import Hero from '../../components/hero'
 import Scrollbar from '../../components/scrollbar'
 import CoupleSection from '../../components/CoupleSection/CoupleSection';
-import VideoSection from '../../components/VideoSection';
 import StorySection from '../../components/StorySection/StorySection';
-import CtaSection from '../../components/CtaSection/CtaSection';
 import RSVP from '../../components/RSVP';
-import BrideGrooms from '../../components/BrideGrooms/BrideGrooms';
 import EventSection from '../../components/EventSection/EventSection';
-import PartnerSection from '../../components/PartnerSection/PartnerSection';
 
 import Footer from '../../components/footer/Footer';
 
@@ -21,15 +17,11 @@ const HomePage = () => {
         <Fragment>
             <Navbar hclass={'wpo-site-header-s1'} />
             <Hero />
-            <CoupleSection />
-            <VideoSection />
-            <StorySection />
-            <CtaSection />
+            {/* <CoupleSection />
+            <StorySection /> */}
             <RSVP />
-            <BrideGrooms />
-            <EventSection />
-            <PartnerSection />
-            <Footer />
+            {/* <EventSection />*/}
+            <Footer /> 
             <Scrollbar />
         </Fragment>
     )

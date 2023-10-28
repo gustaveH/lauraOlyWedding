@@ -16,12 +16,12 @@ const HomePage = () => {
         <Fragment>
             <Navbar hclass={'wpo-site-header-s1'} />
             <Hero />
-            {/* <CoupleSection />
-            <StorySection /> */}
+            <CoupleSection />
+            <StorySection />
             <RSVP />
-            {/* <EventSection />
+            <EventSection />
             <Footer />
-            <Scrollbar /> */}
+            <Scrollbar />
         </Fragment>
     )
 };
