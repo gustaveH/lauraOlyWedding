@@ -341,18 +341,7 @@ img {
 }
 
 /** for popup image ***/
-.mfp-wrap {
-  background-color: rgba(0, 0, 0, 0.9);
-  z-index: 99999;
-}
 
-.mfp-with-zoom .mfp-container,
-.mfp-with-zoom.mfp-bg {
-  opacity: 0;
-  -webkit-backface-visibility: hidden;
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-}
 
 .mfp-with-zoom.mfp-ready .mfp-container {
   opacity: 1;
@@ -2562,6 +2551,7 @@ img {
 3. content
 --------------------------------------------------------------*/
 /*3.1 wpo-hero-slider*/
+
 .wpo-hero-slider,
 .static-hero,
 .static-hero-s2,
