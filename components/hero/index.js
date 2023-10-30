@@ -17,7 +17,7 @@ const Hero = (props) => {
                             <div className="col-xl-8 col-lg-6 col-12">
                                 <div className="wpo-static-hero-inner">
                                     <div data-swiper-parallax="300" className="slide-title">
-                                        <h2>Laura <span>&</span> Olivier</h2>
+                                        <h2>Olivier <span>&</span> Laura</h2>
                                     </div>
                                     <div data-swiper-parallax="400" className="slide-text">
                                         <p>We Are Getting Married</p>
